@@ -1,0 +1,35 @@
+[
+  {
+    "id": "id-1",
+    "url": "https://cdn.pixabay.com/photo/2018/10/01/09/00/bird-3715670__340.jpg",
+    "title": "Bird Ara Parrot",
+    "price": 500,
+    "author": {
+      "tag": "illustration",
+      "url": "https://pixabay.com/users/ractapopulous-24766/"
+    },
+    "quantity": 10
+  },
+  {
+    "id": "id-2",
+    "url": "https://cdn.pixabay.com/photo/2018/10/01/09/02/violin-3715686__340.jpg",
+    "title": "Bird Ara Parrot",
+    "price": 700,
+    "author": {
+      "tag": "illustration",
+      "url": "https://pixabay.com/users/ractapopulous-24766/"
+    },
+    "quantity": 20
+  },
+  {
+    "id": "id-3",
+    "url": "https://cdn.pixabay.com/photo/2018/09/28/13/55/flowers-3709349__340.jpg",
+    "title": "Bird Ara Parrot",
+    "price": 900,
+    "author": {
+      "tag": "illustration",
+      "url": "https://pixabay.com/users/ractapopulous-24766/"
+    },
+    "quantity": 30
+  }
+]

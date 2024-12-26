@@ -1,22 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Panel from './components/Panel/Panel';
+import CardsList from './components/Card/CardsList';
+import cards from './data/data.json';
+
+// тут ми вже получили массив об'ектів і теперь з ними можна працювати
+// console.log(dataCardsJson);
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        {/* <Cards data={dataCardsJson} /> */}
+        <Panel title="Новини">
+          <h2>Пока</h2>
+          <p>Прощай</p>
+          <p>До зустрічи</p>
+        </Panel>
+        <Panel>
+          <h2>Пока</h2>
+          <p>Прощай</p>
+          <p>До зустрічи</p>
+        </Panel>
+        <CardsList cards={cards} />
       </header>
     </div>
   );

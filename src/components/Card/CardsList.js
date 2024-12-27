@@ -1,13 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 // import Card from './Card';
-import image1 from '../../image/1.webp';
+import image1 from './1.webp';
 
 const CardsList = ({ cards }) => (
-  <ul>
+  <ul className="Cards-list">
     {cards.map(
       ({ id, url, title, price, author: { aUrl, aTag }, quantity }) => (
-        <li key={id}>
+        <li className="Card-items" key={id}>
           <article>
             <img src={url} alt={title} width="400" />
             <h2>{title}</h2>
@@ -19,7 +19,7 @@ const CardsList = ({ cards }) => (
             <button type="button">Добавити до корзини</button>
           </article>
         </li>
-      )
+      ),
     )}
   </ul>
 );
@@ -40,7 +40,7 @@ CardsList.propTypes = {
       aTag: PropTypes.string.isRequired,
       price: PropTypes.number.isRequired,
       quantity: PropTypes.number.isRequired,
-    })
+    }),
   ),
 };
 

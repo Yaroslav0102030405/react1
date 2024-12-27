@@ -1,0 +1,30 @@
+.Cards-list {
+  padding-left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+  // border: 1px solid $color;
+  flex-wrap: wrap;
+}
+
+.Card-items {
+  padding: 10px;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+  border-radius: 10px;
+  border: 1px solid $color;
+  max-width: 380px;
+}
+
+.notification {
+  padding: 10px 20px;
+}
+
+.error {
+  background-color: red;
+}
+
+.success {
+  background-color: green;
+}
